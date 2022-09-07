@@ -1,7 +1,7 @@
 dashboards:
   sidecarLabel: grafana_dashboard
 rules:
-  enabled: true
+  enabled: false
   stargate:
     http:
       maxReadLatencySeconds: 0.5
