@@ -1,0 +1,10 @@
+dashboards:
+  sidecarLabel: grafana_dashboard
+rules:
+  enabled: true
+  stargate:
+    http:
+      maxReadLatencySeconds: 0.5
+      maxWriteLatencySeconds: 1
+    grpc:
+      maxLatencySeconds: 1
